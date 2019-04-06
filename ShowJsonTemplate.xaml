@@ -1,0 +1,9 @@
+﻿<Window x:Class="TejiAdesa.ShowJsonTemplate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ShowLsonTemplate" Height="232" Width="571">
+    <Grid>
+        <Label Content="Template json per lo startup dell'applicazione" Height="44" HorizontalAlignment="Left" Margin="26,14,0,0" Name="label1" VerticalAlignment="Top" Width="499" FontFamily="Comic Sans MS" FontSize="22" Foreground="DarkBlue"  />
+        <TextBox Height="109" HorizontalAlignment="Left" Margin="20,64,0,0" Name="txtArea" VerticalAlignment="Top" Width="505" />
+    </Grid>
+</Window>

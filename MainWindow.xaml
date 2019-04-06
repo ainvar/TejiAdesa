@@ -1,0 +1,20 @@
+﻿<Window x:Class="TejiAdesa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="635" Width="892">
+    <Grid Width="868">
+        <Label Content="Scripts list:" Height="39" HorizontalAlignment="Left" Margin="12,64,0,0" Name="lblTitle" VerticalAlignment="Top" Width="217" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Foreground="DarkBlue" />
+        <Button Content="config template example" Height="24" HorizontalAlignment="Left" Margin="654,53,0,0" Name="btnGenTemplate" VerticalAlignment="Top" Width="202" Click="btnGenTemplate_Click" RenderTransformOrigin="-0.061,0.592" />
+        <StackPanel Name="btnMain" Margin="12,109,606,12" >
+        </StackPanel>
+        <StackPanel Height="475" HorizontalAlignment="Left" Margin="268,109,0,0" Name="btnMainScripts" VerticalAlignment="Top" Width="100" />
+        <ProgressBar Height="16" HorizontalAlignment="Left" Margin="374,82,0,0" Name="execBar" VerticalAlignment="Top" Width="482" Foreground="DarkViolet" />
+        <TextBox ScrollViewer.VerticalScrollBarVisibility="Auto" Height="475" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="374,109,0,0" Name="txtBox" VerticalAlignment="Top" Width="482" />
+        <Button Visibility="Hidden" Content="Apri shell" Height="22" HorizontalAlignment="Left" Margin="357,46,0,0" Name="btnOpenShell" VerticalAlignment="Top" Width="11" Click="btnOpenShell_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="154,20,0,0" Name="txtTailPars" VerticalAlignment="Top" Width="702" />
+        <Label Content="Optional parameters:" Height="27" HorizontalAlignment="Left" Margin="13,19,0,0" Name="lblParAgg" VerticalAlignment="Top" Width="136" FontWeight="Bold" Foreground="DarkBlue" FontFamily="Comic Sans MS" />
+
+        <Image MouseUp="imgReload_MouseUp_1" Name="imgReload" Source="C:\Users\piepal\Downloads\TejiAdesa\imgs\appbar.refresh.png" HorizontalAlignment="Left" Height="52" Margin="374,16,0,0" VerticalAlignment="Top" Width="48" RenderTransformOrigin="0.537,1.333"/>
+
+    </Grid>
+</Window>

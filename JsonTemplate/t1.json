@@ -1,0 +1,25 @@
+{
+"ServerName":"server Name",
+"ServerUser":"server ssh user",
+"ServerPassword":"ssh user password",
+"ScriptsList":
+	[{"Label":"label primo comando",
+	"Description":"descrizione primo comando",
+	"ScriptToLaunch":"path completo dello script o primo comando",
+	"ServerName":"clio",
+	"ServerUser":"root",
+	"ServerPassword":"password"}
+	,{"Label":"label secondo comando",
+	"Description":"descrizione secondo comando",
+	"ScriptToLaunch":"path completo dello script o secondo comando",
+	"ServerName":"clio",
+	"ServerUser":"root",
+	"ServerPassword":"password"}
+	,{"Label":"label terzo comando",
+	"Description":"descrizione terzo comando",
+	"ScriptToLaunch":"path completo dello script o terzo comando",
+	"ServerName":"clio",
+	"ServerUser":"root",
+	"ServerPassword":"password"}
+	]
+}
